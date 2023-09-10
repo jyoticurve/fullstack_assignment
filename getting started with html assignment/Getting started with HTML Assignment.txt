@@ -1,0 +1,60 @@
+﻿Getting started with HTML Assignment
+
+
+Q1:-   Write a simple program in HTML that displays the heading “HTML defines the content and structure of your website” on the web browser?
+
+
+Sol:- https://drive.google.com/file/d/10ndfTbRz6B-af53gdhwkIXOg1sy_UHLj/view?usp=sharing
+
+
+Q2:- Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document?
+
+
+Sol:- Comments are nothing , it’s just an explanation or a simple and shorter note of the code and it’s good part is it is not rendering on the web page.
+Writing comments is a good practice for the developer or programmer, especially for complex codes.
+It makes your code easy to understand and increases readability of your code.
+Comments  which are used for HTML files are known as HTML Comments. 
+Syntax of comment: <!------------------>
+Comments are of two types:-
+1. Single-line comment:- For single line of code.
+Syntax: <!---write commented text here--->
+Example: <header>   <!--this is header section--->
+
+
+2. Multi-line comment:- To comment multiple lines at a time.
+Syntax: <!--your code is commented.
+                Write a description of code.
+                It will not render.
+                   - ->
+Example: <h2>Cake Shop</h2>
+                <!--this is a image for a vanilla cake
+                You can see it in your web-page- ->
+Q3:- Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a line break. Arrange these elements to create a simple web page layout?
+
+
+Sol:-
+
+
+Q4:- Write a short note on Tag and element with an example?
+
+
+Sol:- Tag:-  HTML tags are used to hold the HTML elements or we can say they are the building block of an HTML page. They have an opening tag (<) and closing tag(/>). They help us in the formatting of texts like size of the text, font styles etc. with the help of <b>, <i>, <table> and many more. Some tags also help in formatting a web page or document and set the layout of the page like tables, division and span tags.
+
+
+Example:- <b>, <header>, <footer>, <section>, <aside>, <main> 
+
+
+Element:- HTML elements are used to hold the content. An element is a collection of start tag, attributes, end tag, content between them. But some elements do not have  content and end tag like <br>(represents a line break), <hr>(represents horizontal line) and many more such elements are also known as Void elements or empty elements. These elements are also known as unpaired tags.
+
+
+Example:- <h1>this is heading</h1>
+                <p>this is paragaph</p>
+
+
+Q5:- What is the DOCTYPE Declaration in HTML?
+
+
+Sol:- The HTML document type declaration, also known as DOCTYPE, is the first line of code required in every HTML or XHTML document. The DOCTYPE declaration is not an element or tag , it just tells an instruction to the web browser about what version of HTML the page is written in. 
+Or in simple words we can say that -
+“It is an ‘information’ to the browser about what document type to expect.”
+The HTML document starts with <!Doctype html> declaration.
