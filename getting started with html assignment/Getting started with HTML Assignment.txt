@@ -4,7 +4,7 @@
 Q1:-   Write a simple program in HTML that displays the heading “HTML defines the content and structure of your website” on the web browser?
 
 
-Sol:- https://drive.google.com/file/d/10ndfTbRz6B-af53gdhwkIXOg1sy_UHLj/view?usp=sharing
+Sol:- 
 
 
 Q2:- Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document?
