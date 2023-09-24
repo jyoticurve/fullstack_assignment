@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        /* Style for the gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        /* Style for individual images */
+        .image-gallery img {
+            width: 500px;
+            height: 400px;
+            margin: 7px;
+            border: 2px solid #9b2929;
+            border-radius: 15px;
+        }
+
+        .image-gallery img:hover {
+            border: 5px solid #9b2929;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <div class="image-gallery">
+        <img src="./img1.webp" alt="nature">
+        <img src="./img2.jpg" alt="beautiful bird">
+        <img src="./img3.jpg" alt="mountains">
+        <img src="./img4.webp" alt="waves in the ocean">
+        <img src="./img5.webp" alt="a flower">
+    </div>
+
+</body>
+
+</html>
