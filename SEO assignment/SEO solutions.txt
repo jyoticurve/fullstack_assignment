@@ -1,0 +1,43 @@
+﻿SEO Assignment
+Q1:-
+Sol:- SEO which stands for Search Engine Optimization, is the practice of optimizing a website or web page to improve its visibility and ranking on search engine results pages(SERPs). 
+The primary goal of SEO is to increase organic(non-paid) traffic to a website by ensuring that it appears higher in search engine results for relevant queries.
+Importance Of SEO:-
+* Visibility: SEO helps your website show up on the first page of search engine results, making it more likely that people will find and visit your site.
+* Credibility: Websites that appear at the top of search results are seen as more trustworthy. SEO can boost your site’s credibility and reputation.
+* Better User Experience: SEO often involves improving your website’s structure content, which can make it easier for visitors to use and find what they need.
+* Cost-Effective: Compared to paid advertising, SEO can be a cost-effective way to attract traffic. Once your site is optimized, it can continue to bring in visitors without ongoing ad expenses. 
+* Measurable Results: SEO provides data and insights, allowing you to track your progress and make informed decisions to improve your website’s performance.
+
+
+
+
+Q3:- 
+Sol:- Benefits of using Meta Tags:
+        Using meta tags in HTML documents provides several benefits for           web developers, search engines, and users. Some of the key benefits include
+* SEO(Search Engine Optimization): Meta tags, such as the”description” and “keywords” tags, can help improve a webpage’s visibility on search engine result pages(SERPs). 
+* Increased Click-Through Rates(CTR): A well-crafted meta title and meta description can attract user’s attention in search engine results, increasing the likelihood that they will click on your link. A higher CTR can lead to more organic traffic.
+* Reduced Duplicate Content: Canonical tags can be used to specify the preferred version of a page when duplicate content exists(e.g., www vs. non-www). This helps prevent duplicate content issues that can negatively affect SEO.
+* Enhanced Mobile Responsiveness: The meta viewport tag is crucial for ensuring that your website is mobile-friendly and displays correctly on various devices. It controls the viewport’s width and initial scale, improving the mobile user experience.
+* Control Over How Your Content Appears: Meta tags give you control over how your content appears in search engine results and on social media when shared. This control allows you to present your content in the most appealing and informative way.
+
+
+Q5:- 
+Sol:- A Favicon (short for “favorite icon”) is a small, typically square image or icon associated with a website or web page. Favicon images are displayed in a web browser’s address bar, tabs, bookmarks, and sometimes in search engine results. They serve as a visual representation of a website and help users quickly identify and differentiate between various websites when multiple tabs are open in a browser.
+Example:--->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=”UTF-8”>
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+<title>Real-estate website</title>
+<!---Favicon—>
+         <link rel=”icon” href=”favicon.ico” type=”image/x-icon”>
+</head>
+<body>
+<!--your content goes appear here—--->
+</body>
+</html>
+
+
+In Example, the href attribute points to a file named ”favicon.ico,” which is a common file format for favicons.
