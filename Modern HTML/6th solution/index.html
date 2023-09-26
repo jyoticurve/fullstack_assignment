@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML v/s HTML5</title>
+    <style>
+        th{
+            padding: 20px;
+        }
+        thead{
+            font-size: 30px;
+           background-color: rgb(19, 149, 149);
+          
+        }
+        td{
+            padding: 10px;
+            font-size: 20px;
+        }
+        td.aspect{
+            font-weight: bold;
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <table border="20">
+        <thead>
+            <tr>
+                <th>Aspects</th>
+                <th>HTML</th>
+                <th>HTML5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="aspect">Document Structure</td>
+                <td>Uses various div and spans for layout styling. </td>
+                <td>Introduces new semantic elements like header, nav, footer, article, section for a structured document.</td>
+            </tr>
+            <tr>
+                <td class="aspect">Multimedia</td>
+                <td>Requires third-party plugins like Adobe Flash for multimedia content.</td>
+                <td>Provides native support for multimedia through audio and video element.</td>
+            </tr>
+            <tr>
+                <td class="aspect">Forms</td>
+                <td>Basic form elements available, limited input types.</td>
+                <td>Adds new input types (input type="email", input type="date" etc.) and attributes for improved form handling.</td>
+            </tr>
+            <tr>
+                <td class="aspect">Responsive Web Design</td>
+                <td>Requires additional CSS and media queries for responsive design.</td>
+                <td>Promotes responsive web design through media queries and fluid layouts.</td>
+            </tr>
+            <tr>
+                <td class="aspect">Drag and Drop</td>
+                <td>Limited native support for drag-and-drop interactions.</td>
+                <td>Introduces native support for drag-and-drop operations.</td>
+            </tr>
+            <tr>
+                <td class="aspect">Offline Applications</td>
+                <td>Lacks native support for creating offline web applications. </td>
+                <td>Introduces the Application Cache(AppCache) for creating offline-capable web apps.</td>
+            </tr>
+            <tr>
+                <td class="aspect">Web Workers</td>
+                <td>No support for multi-threaded javascript.</td>
+                <td>Introduces web workers for running scripts in the background without freezing the main UI.</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿Modern HTML Assignment
+
+
+1st Que:-
+Sol:-   HTML5 is the fifth and current version of HTML.
+Some features are:-
+* It has introduced new multimedia features which supports both audio and video controls by using <audio> and <video> tags.
+* It introduced a set of new semantic elements that describe the structure and content of a web page clearly like `<header>`, `<article>`, `<section>`, `<aside>`, `<footer>` and many more.
+* Improves form handling by introducing new input types (‘<input type=”email”>’, ‘<input type=”url”>’) and attributes like ‘required’, ‘placeholder’ that enhance user input validation and experience.
+* Provides an API for accessing a user’s geographical location through the browser, enabling location-based web applications and services.
+* Introduced native support for drag-and-drop operations, making it easier to create interactive and user-friendly interfaces.
+* Uses SQL database to store data offline.
+* Capable of handling incorrect syntax.
+* Improves accessibility.
+
+
+2nd Que:-
+Sol:-  HTML entities are special codes or sequences of characters used in HTML to display reserved characters that may not be easily entered or displayed as plain text in HTML documents.
+These entities are especially useful for representing reserved characters (such as ‘<’, ‘>’, ‘&’, etc.) and characters that are not part of the standard ASCII character set.
+HTML entities always start with an ampersand(‘&’) and end with a semicolon(‘;’).
+
+
+Some commonly used HTML entities are:-
+1. &nbsp:- represents a non-breaking space, which prevents line breaks or extra spaces from being added.
+2. &copy:- represents the copyright symbol.
+3. &lt:- represents the less-than sign(‘<’).
+4. &gt:- represents the greater-than sign(‘>’).
+5. &amp:- represents the ampersand (‘&’).
+6. &reg:- represents the registered trademark symbol.
+7. &quot:- represents the double quotation mark(`”`).
+8. &apos:- represents the single quotation mark(`’`).
+
+
+
+
+3rd Que:-
+Sol:- Accessibility means it can be accessed by all types of people who are impaired or with any disability.
+In the context of web development it refers to the practice of designing and developing websites and web applications to be usable and understandable by as many people as possible, regardless of their abilities or disabilities.
+It aims to remove barriers to access and participation in the online world.
+
+
+Accessibility is essential due to some reasons:
+Search Engine Optimization(SEO):- Accessible websites tend to have better SEO because they provide well-structured content with descriptive headings, all text for images, and other SEO-friendly elements.
+
+
+Enhanced User Experience:- An accessible website provides a better user experience for everyone. Well-structured content, clear navigation, and optimized multimedia contribute to a seamless browsing experience.
+
+
+Inclusivity for people with disabilities:- Web accessibility ensures that everyone, regardless of their abilities or disabilities, can access and interact with online content. It promotes inclusivity and equal opportunities for participation in the digital world. 
+
+
+Ethical Responsibility:- Creating accessible websites is an ethical responsibility in the digital age. Ensuring that everyone has access to information and services online is a fundamental principle of equity and social responsibility. 
+Some Benefits are:-
+1. For visual impairments accessible websites work seamlessly with screen readers, converting text and images into synthesized speech or Braille. Providing high-contrast color schemes helps those with low vision.
+2.  For hearing impairments videos with captions benefit deaf and hard-of-hearing users, as well as those in noisy environments or non-native speakers. Providing transcripts for audio content ensures access for users who may not be able to hear the audio.
+3. For motor disabilities accessible websites are navigable using only a keyboard, which helps people with mobility issues who cannot use a mouse. Voice commands and voice recognition technologies benefit users with mobility impairments.
+
+
+Q4:-
+Sol:- Some ways which help us in improving the accessibility of HTML:-
+1. Use ARIA roles and attributes:- Implement Accessible Rich Internet Applications(ARIA) roles and attributes when necessary to enhance the accessibility of dynamic content and custom widgets.
+2.  Use descriptive title for links:- It will make it easier for those who rely on screen readers to navigate your website to understand the purpose of the link and where they will be redirected.
+3. Use CMS that supports accessibility:- When building a website, choose a Content Management System(CMS) that supports web accessibility.
+4. Focus Styles:- Ensure that interactive elements have visible and clear focus styles(e.g., outlines or background changes) to indicate where keyboard focus is located.
+5. Valid HTML:-Write valid HTML code to ensure consistent rendering across browsers and assistive technologies. Use tools like HTML validators to check for errors.
+6. Accessible forms:- Label form fields using the `<label>` element of the `aria-label` attribute. Use fieldset and legend elements to group related form controls for better understanding.
+7. Testing and User Feedback:-Regularly test your website’s accessibility using automated tools and manual testing with assistive technologies. Consider involving users with disabilities for feedback and usability testing.
