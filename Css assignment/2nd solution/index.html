@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM Example</title>
+    <!-- Link External file -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Styling Paragraphs using BEM</h1>
+
+    <p>BEM refers to Block,Element, Modifier.</p>
+    
+    <!-- Paragraph with Unique Classes -->
+    <p class="paragraph">This is a Block content of regular Paragraph. Block should be thought of as a parent.</p>
+
+    <p class="paragraph__important">It represent that this paragraph is important. `Important` is an element which depends on the block `paragraph` which is separated by double underscore(__).</p>
+
+    <p class="paragraph__important--highlighted">It represents that this is an important paragraph with the style `highlighted`(modifier) separated by double dash(--). </p>
+
+</body>
+
+</html>

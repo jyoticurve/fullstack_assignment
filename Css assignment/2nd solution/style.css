@@ -1,0 +1,14 @@
+.paragraph{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.paragraph__important{
+background-color: cyan;
+}
+
+.paragraph__important--highlighted{
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+:root{
+    --main-bg-color: rgba(127, 158, 142, 0.283);
+    --one-bg-color:rgb(240, 241, 255);
+    --personal--bg-color:rgba(127, 255, 212, 0.452);
+    --terms--bg-color:rgba(49, 65, 19, 0.291);
+
+
+}
+.main-block{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+}
+.account{
+    background-color: var(--one-bg-color);
+}
+.personal{
+    background-color: var(--personal--bg-color);
+}
+
+.terms{
+    background-color: var(--terms--bg-color);
+}
+
+body{
+    min-height: 100%;
+}
+body,div,input,form,select,p{
+    font-size: 20px;
+    outline: none;
+    
+}
+
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h3{
+   
+    margin: 20px;
+}
+.account-details, .personal-details{
+    justify-content: space-between;
+}
+input{
+    margin: 5px;
+   
+
+}
+
+button{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    background: darkgreen;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+button:hover{
+    background-color: blueviolet;
+}
