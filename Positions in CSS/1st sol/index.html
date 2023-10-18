@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioned Boxes</title>
+</head>
+<style>
+    .box {
+        width: 50px;
+        height: 50px;
+        background-color: aquamarine;
+        border: 1px solid lightgreen;
+        text-align: center;
+
+    }
+
+    .boxA {
+        left: 200px;
+        top: 200px;
+        position: relative;
+    }
+
+    .boxB {
+        left: -30px;
+        bottom: 30px;
+        position: absolute;
+    }
+
+    .boxC {
+        right: -30px;
+        bottom: 30px;
+        position: absolute;
+    }
+
+    .boxD {
+        left: -30px;
+        top: 30px;
+        position: absolute;
+    }
+
+    .boxE {
+        right: -30px;
+        top: 30px;
+        position: absolute;
+    }
+</style>
+
+<body>
+    <div class="box boxA">A
+        <div class="box boxB">B</div>
+        <div class="box boxC">C</div>
+        <div class="box boxD">D</div>
+        <div class="box boxE">E</div>
+    </div>
+</body>
+
+</html>
