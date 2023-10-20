@@ -1,0 +1,66 @@
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* pricing-section */
+.pricing-section{
+    min-height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #F4F2FD;
+}
+
+/* cards */
+.card{
+    width: 280px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+.plan-name{
+    font-size: 36px;
+}
+
+.pricing{
+font-size: 36px;
+font-weight: 100;
+margin: 12px 0;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+}
+
+.features img{
+    margin-right: 10px;
+}
+
+.subscribe-now-button{
+    color: white;
+    background-color: #202842;
+    border-radius: 24px;
+    font-size: 18px;
+    padding: 10px 35px;
+    margin: 30px auto;
+    border-color: transparent;
+}
+
+.dark{
+    background-color: #202842;
+    color: white;
+}
+
+.dark-btn{
+    background-color: #fff;
+    color: black;
+}
