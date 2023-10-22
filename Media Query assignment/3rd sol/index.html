@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style-type: none;
+    }
+
+    .NavBar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #000;
+        margin: 10px;
+    }
+
+    .NavBar a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .NavBar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #A9A9A9;
+        }
+
+    }
+</style>
+
+<body>
+    <nav class="NavBar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+</body>
+
+</html>

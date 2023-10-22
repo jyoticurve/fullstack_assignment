@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: #f5f5f5ff;
+    }
+
+    .header,
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    p {
+        background-color: #ddd;
+        flex-wrap: wrap;
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .Box2 {
+        background-color: #66cc99;
+        color: #fff;
+    }
+
+    .Box3 {
+        background-color: #ff9933;
+        color: #fff;
+    }
+
+    @media screen and (min-width:768px) {
+        .container {
+            flex-direction: row;
+        }
+
+        p {
+            flex: 1;
+        }
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">Box1</div>
+        <div class="main">
+            <p class="Box2">Box2</p>
+            <p class="Box3">Box3</p>
+        </div>
+        <div class="footer">Box4</div>
+    </div>
+</body>
+
+</html>

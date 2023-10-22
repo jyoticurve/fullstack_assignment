@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .gallery img {
+        margin: 10px;
+        width: 20%;
+    }
+
+    @media screen and (max-width:800px) {
+        .gallery img {
+            width: 40%;
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        .gallery img {
+            width: 60%;
+        }
+    }
+</style>
+
+<body>
+    <div class="gallery">
+        <img src="./assets/img1.jpg" alt="img1">
+        <img src="./assets/img2.jpg" alt="img2">
+        <img src="./assets/img3.jpg" alt="img3">
+    </div>
+</body>
+
+</html>
