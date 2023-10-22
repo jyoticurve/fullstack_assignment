@@ -1,0 +1,42 @@
+In Css grid, `grid-auto-rows` and 'grid-auto-columns' are properties that define the size of grid tracks (rows and
+columns) that are automatically created to accommodate content that doesn't explicitly fit into the grid. These
+properties are used to specify the size of implicitly created tracks.
+
+Example:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-auto-rows: 50px;
+        /* Implicit rows will have a height of 50px */
+        grid-gap: 10px;
+    }
+
+    .grid-item {
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+    </div>
+</body>
+
+</html>
