@@ -1,0 +1,50 @@
+/* B. Using combinator selector */
+
+/* using descendant combinator */
+li a{
+    color: red;
+}
+
+/* using child combinator */
+nav > h2{
+    color: blue;
+    background-color: lightgreen;
+}
+
+/* Using adjacent sibling combinator */
+div + p{
+    color: red;
+}
+
+/* C. Using attribute selector */
+
+/* Using presence attribute */
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+/* Using Exact value attribute */
+a[class=active] {
+    color: black;
+    text-decoration: underline;
+}
+
+a[target="_self"] {
+    background-color: blueviolet;
+}
+
+/* D.  Using Pseudo selectors */
+
+p:last-child::after {
+content: "...";
+}
+
+li::marker{
+    color: red;
+}
+
+p:nth-child(2n)::first-letter{
+    color: red;
+    font-size: 30px;
+}
