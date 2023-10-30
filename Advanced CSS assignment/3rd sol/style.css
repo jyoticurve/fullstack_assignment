@@ -1,0 +1,18 @@
+body {
+    padding: 50px;
+}
+#loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    border-top-color: blue ;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate{
+    100%{
+        rotate: 360deg;
+    }
+    
+}
