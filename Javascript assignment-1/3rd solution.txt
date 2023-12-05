@@ -1,0 +1,17 @@
+3rd ques:- List and describe the five primite data types in Javascript?
+
+Sol:-
+1. String: Combination of alphanumeric characters wrapped in either single or double quotes. Strings can include any number, letter or symbol.
+Example: "Prabir" or 'Prabir'
+
+2. Number: Any number in Javascript is the Number type, including floats and decimals. Some languages have separate types for floats and integers. javascript does not. Numbers are not wrapped in quotes.
+Example: 30, 98.9 
+
+3. BigInt: In Javascript, there is a maximum safe value, which is approximately 2^53 - 1. Similarly, there is also a minimum safe value, which is approximate -(2^53 - 1).
+This means that integers less than min safe value or greater than max safe value, may lose precision when represented as a Javascript number. So, for such numbers, we use BigInt data type.
+The BigInt data type number can also be treated as a regular number by adding n to it at the end.
+Example: 9007199243740991n
+
+4. Null: Null means nothing or empty value. It is often used to indicate that a variable or property has no value. 
+
+5. Undefined: Undefined is a special value that indicates that a variable or property has been declared but has not been assigned a vlaue.
