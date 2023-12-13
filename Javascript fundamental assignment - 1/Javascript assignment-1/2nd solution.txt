@@ -1,0 +1,16 @@
+2nd ques:- Explain the key differences between Javascript and HTML. Provide examples of situations where you should use each?
+
+Sol:- 
+HTML (Hypertext Markup Language):-
+1. Purpose: HTML is a markup language used for structuring and presenting content on the web.
+2. Key Characteristics: It consists of a set of elements or tags that define the structure of a web page's content. It provides the basic framework for displaying text, images, links, forms, and other elements on a webpage.
+3. Example Situation: HTML is used to create the basic layout and structure of a webpage. For instance, when you want to display text, images, create paragraphs, lists, tables, and define the overall structure of the page, you use HTML.
+
+Javascript:-
+1. Purpose: Javascript is a scripting language that enables interactivity, behaviour, and dynamic content on web pages.
+2. Key Characteristics: It's used to add functionality to a webpage, manipulate HTML and CSS, respond to user actions, and create dynamic effects. Javascript can change or update HTML content, handle events (like clicks or form submissions), and communicate with servers to fetch or send data asynchronously (AJAX).
+3. Example Situation: Javascript is used when you want to make a webpage interactive, validate forms, create animations, load new content without refreshing the page, and more.
+
+When to Use each:
+Use HTML to create the basic structure and content of a webpage.
+Use Javascript to add interactivity, validate forms, create dynamic effects, fetch data from servers without reloading the page, and handle user events.

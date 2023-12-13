@@ -1,0 +1,10 @@
+1st ques:- Explain what javascript is and its role in web development:-
+
+Sol:- Javascript is a popular programming language that is widely used to build web applications. It ia client-side scripting language, which means that it is run by your web browser rather than on a server. This makes it a good choice for building web applications that need to be fast and responsive, as the code is run locally on the user's device rather than ahving to be sent back and forth between aserver and a client. jascript is also used to build mobile apps, create interactive documents, and build server-side applications with the help of runtime environments such as Node.js. 
+
+Role in Web Development:-
+1. Interactivity and User Experience:- Javascript is primarily responsible for adding interactivity to web pages. It allows developers to create dynamic content that responds to user actions, such as button clicks, form submissions, and mouse movements.
+
+2. DOM Manipulation:- The Document Object Model(DOM) is a programming interface that represents the structure of an HTML document as a tree of objects. Javascript enables developers to manipulate the DOM, which means they can programmatically modify the content, structure and styles of a web page.
+
+Framework and Libraries:- Javascript has a thriving ecosystem of frameworks and libraries that streamline web development. Frameworks like React, Angular and Vue.js provide structured ways to build complex user interfaces, while libraries like jQuery simplify common tasks like DOM manipulation and AJAX requests.
