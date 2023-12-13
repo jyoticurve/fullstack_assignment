@@ -1,0 +1,5 @@
+Comma oerator allows us to evaluate multiple epressions in a single statement like declaring multiple variables in a single statement separating them with the comma operator.
+
+Example:
+const a = 10, b = 20, c = 30;
+console.log(a, b, c);
